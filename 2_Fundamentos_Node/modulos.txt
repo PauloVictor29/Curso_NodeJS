@@ -1,0 +1,25 @@
+Modulos são scripts reaproveitaveis, que utilizamos bastante programando em Node.
+Há 3 categorias:
+Internos: módulos que nós desenvolvemos. Ex: criar uma função e importar quando for necessario.
+- São criados nas pastas do projeo, necessario exportar e importar e é utilizado o require.
+
+
+Core Modules: Modúlos que vem com o Node.js
+- Trabalha com arquivos e diretorios e serve aplicações.
+- Precisa importar para poder utilizar.
+
+Ler argumentos:
+Os argumentos ficam em um array chamado: process.argv
+- Podemos fazer um loop e resgatar os valores enviados.
+
+
+Externos: Modulos que instalamos via NPM. Ex> Modúlos que empresas ou outros dev utilizam
+- Os modulos externos são instalados via npm.
+- Para isso precisamos inicializar o npm no projeto utilizando: npm init
+- Os modulos ficam salvos na pasta node_modules.
+- A instalação é feita com npm install <nome>
+
+Chalk:
+- Deixa a visualização do console mais agradável
+- Realização de um feedback com base em cores.
+
