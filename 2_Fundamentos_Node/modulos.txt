@@ -23,3 +23,7 @@ Chalk:
 - Deixa a visualização do console mais agradável
 - Realização de um feedback com base em cores.
 
+- Modulo Readline, ele lê dadodos do usuario e é um Core Module.
+
+- Modulo Externo Inquirer:
+- Resgasta e lida com o input do usuario e é baseado em Promises
